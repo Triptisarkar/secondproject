@@ -1,0 +1,64 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Verify subscribe to newsletter is in the homepage footer",
+        "description": "",
+        "id": "this-is-newsletter-feature;verify-subscribe-to-newsletter-is-in-the-homepage-footer",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6847136700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Launch\u003c\"URL\"\u003e netapp",
+            "match": {
+              "arguments": [
+                {
+                  "val": "URL",
+                  "offset": 8
+                }
+              ],
+              "location": "neticket_NewsletterStepdeff.launch_netapp(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 24500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Scroll down till subscribe to newsletter",
+            "match": {
+              "location": "neticket_NewsletterStepdeff.scroll_down_till_subscribe_to_newsletter()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify subscribe to newsletter is in the homepage footer",
+            "match": {
+              "location": "neticket_NewsletterStepdeff.verify_subscribe_to_newsletter_is_in_the_homepage_footer()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "This is newsletter feature",
+    "description": "",
+    "id": "this-is-newsletter-feature",
+    "keyword": "Feature",
+    "uri": "neticket_newsletter.feature"
+  }
+]
